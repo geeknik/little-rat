@@ -3,11 +3,13 @@
   "version": "1.4",
   "name": "Little Rat",
   "background": {
-    "service_worker": "src/service-worker.js",
-    "type": "module"
-  },  
+    "scripts": ["src/background.js"]
+  },
   "permissions": [
     "declarativeNetRequest", "storage", "declarativeNetRequestFeedback", "management"
+  ],
+  "host_permissions": [
+    "<all_urls>"
   ],
   "declarative_net_request": {
     "rule_resources": [
