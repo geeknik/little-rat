@@ -18,7 +18,7 @@
         "csp_report",
         "media",
         "websocket",
-        "webtransport",
+#        "webtransport",
         "webbundle",
         "other"
       ],
