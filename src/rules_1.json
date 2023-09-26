@@ -1,8 +1,10 @@
 [
   {
     "id": 49999,
-    "priority": 1,
-    "action": { "type": "allow" },
+    "priority": 1, 
+    "action": {
+      "type": "allow"
+    },
     "condition": {
       "urlFilter": "*",
       "resourceTypes": [
@@ -12,17 +14,30 @@
         "script",
         "image",
         "font",
-        "object",
+        "object", 
         "xmlhttprequest",
         "ping",
         "csp_report",
         "media",
         "websocket",
-#        "webtransport",
+        "webtransport",
         "webbundle",
-        "other"
+        "other",
+        "beacon",
+        "dtd",
+        "fetch",
+        "fontset",
+        "iframe",
+        "img",
+        "manifest",
+        "serviceworker",
+        "sharedworker",
+        "style",
+        "track",
+        "worker",
+        "xbl"
       ],
-      "domainType": "thirdParty"
+      "domains": ["third-party"]
     }
   }
 ]
