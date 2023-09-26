@@ -1,7 +1,7 @@
 [
   {
     "id": 49999,
-    "priority": 1, 
+    "priority": 1,
     "action": {
       "type": "allow"
     },
@@ -14,28 +14,14 @@
         "script",
         "image",
         "font",
-        "object", 
+        "object",
         "xmlhttprequest",
         "ping",
         "csp_report",
         "media",
         "websocket",
-        "webtransport",
-        "webbundle",
         "other",
         "beacon",
-        "dtd",
-        "fetch",
-        "fontset",
-        "iframe",
-        "img",
-        "manifest",
-        "serviceworker",
-        "sharedworker",
-        "style",
-        "track",
-        "worker",
-        "xbl"
       ],
       "domains": ["third-party"]
     }
