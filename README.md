@@ -1,5 +1,5 @@
 # <img src="assets/little-rat-128x128.png" width="24" />  little-rat
-🐀 Small chrome extension to monitor (and optionally block) other extensions' network calls
+🐀 A small ~~chrome~~ Firefox extension to monitor (and optionally block) other extensions' network calls.
 
 <a href="https://chrome.google.com/webstore/detail/little-rat/oiopkpalpilladnibecobcecijffaflf">
   <img src="assets/chrome-store.png" alt="Get Little Rat for Chrome" width="124"/>
